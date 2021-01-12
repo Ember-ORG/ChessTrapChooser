@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/davis/Documents/Personal/CSProjects/Ongoing/ChessTrapper/dbgen/dbgen.fsproj": {}
+  },
+  "projects": {
+    "/home/davis/Documents/Personal/CSProjects/Ongoing/ChessTrapper/dbgen/dbgen.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/davis/Documents/Personal/CSProjects/Ongoing/ChessTrapper/dbgen/dbgen.fsproj",
+        "projectName": "dbgen",
+        "projectPath": "/home/davis/Documents/Personal/CSProjects/Ongoing/ChessTrapper/dbgen/dbgen.fsproj",
+        "packagesPath": "/home/davis/.nuget/packages/",
+        "outputPath": "/home/davis/Documents/Personal/CSProjects/Ongoing/ChessTrapper/dbgen/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/davis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "ChessBot.Pgn": {
+              "target": "Package",
+              "version": "[1.1.2, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Collections.ParallelSeq": {
+              "target": "Package",
+              "version": "[1.1.4, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[3.3.3, )",
+              "generatePathProperty": true
+            },
+            "FSharpPlus": {
+              "target": "Package",
+              "version": "[1.1.7, )",
+              "generatePathProperty": true
+            },
+            "LinqOptimizer.FSharp": {
+              "target": "Package",
+              "version": "[0.7.0, )",
+              "generatePathProperty": true
+            },
+            "TimHanewich.Chess.BatchAnalysis": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

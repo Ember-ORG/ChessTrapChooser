@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "doG+sZiVFmNsnyeLwPs7OwB+eZ3Y5sn3i3UhYHWIIoyXrL4hTovQLWiN0iCQtJ4ObpHuTiiSUFc624FbvYb5nw==",
+  "success": true,
+  "projectFilePath": "/home/davis/Documents/Personal/CSProjects/Ongoing/ChessTrapper/dbgen/dbgen.fsproj",
+  "expectedPackageFiles": [
+    "/home/davis/.nuget/packages/chessbot.logic/1.1.2/chessbot.logic.1.1.2.nupkg.sha512",
+    "/home/davis/.nuget/packages/chessbot.pgn/1.1.2/chessbot.pgn.1.1.2.nupkg.sha512",
+    "/home/davis/.nuget/packages/fsharp.collections.parallelseq/1.1.4/fsharp.collections.parallelseq.1.1.4.nupkg.sha512",
+    "/home/davis/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/fsharp.data/3.3.3/fsharp.data.3.3.3.nupkg.sha512",
+    "/home/davis/.nuget/packages/fsharpplus/1.1.7/fsharpplus.1.1.7.nupkg.sha512",
+    "/home/davis/.nuget/packages/linqoptimizer.fsharp/0.7.0/linqoptimizer.fsharp.0.7.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.collections.immutable/1.5.0/system.collections.immutable.1.5.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/timhanewich.chess.batchanalysis/1.0.0/timhanewich.chess.batchanalysis.1.0.0.nupkg.sha512",
+    "/home/davis/.nuget/packages/timhanewich.chess.pgn/1.0.0/timhanewich.chess.pgn.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

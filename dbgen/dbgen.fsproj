@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChessBot.Pgn" Version="1.1.2" />
+    <PackageReference Include="FSharp.Collections.ParallelSeq" Version="1.1.4" />
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
+    <PackageReference Include="FSharpPlus" Version="1.1.7" />
+    <PackageReference Include="LinqOptimizer.FSharp" Version="0.7.0" />
+    <PackageReference Include="TimHanewich.Chess.BatchAnalysis" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

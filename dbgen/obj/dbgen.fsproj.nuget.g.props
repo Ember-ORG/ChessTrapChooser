@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/davis/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/davis/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgTimHanewich_Chess_BatchAnalysis Condition=" '$(PkgTimHanewich_Chess_BatchAnalysis)' == '' ">/home/davis/.nuget/packages/timhanewich.chess.batchanalysis/1.0.0</PkgTimHanewich_Chess_BatchAnalysis>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/davis/.nuget/packages/fsharp.core/5.0.0</PkgFSharp_Core>
+    <PkgLinqOptimizer_FSharp Condition=" '$(PkgLinqOptimizer_FSharp)' == '' ">/home/davis/.nuget/packages/linqoptimizer.fsharp/0.7.0</PkgLinqOptimizer_FSharp>
+    <PkgFSharpPlus Condition=" '$(PkgFSharpPlus)' == '' ">/home/davis/.nuget/packages/fsharpplus/1.1.7</PkgFSharpPlus>
+    <PkgFSharp_Data Condition=" '$(PkgFSharp_Data)' == '' ">/home/davis/.nuget/packages/fsharp.data/3.3.3</PkgFSharp_Data>
+    <PkgFSharp_Collections_ParallelSeq Condition=" '$(PkgFSharp_Collections_ParallelSeq)' == '' ">/home/davis/.nuget/packages/fsharp.collections.parallelseq/1.1.4</PkgFSharp_Collections_ParallelSeq>
+    <PkgChessBot_Pgn Condition=" '$(PkgChessBot_Pgn)' == '' ">/home/davis/.nuget/packages/chessbot.pgn/1.1.2</PkgChessBot_Pgn>
+  </PropertyGroup>
+</Project>
